@@ -10,8 +10,8 @@ body {
 
 /* header */
 header {
-  background: linear-gradient(135deg, #2c2c2c, #444);
-  color: white;
+  background: linear-gradient(135deg, #1a1a1a, #333);
+  color: #ffd700; /* זהב יוקרתי */
   text-align: center;
   padding: 60px 20px;
 }
@@ -29,17 +29,19 @@ header .hero-img {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   margin-bottom: 20px;
 }
-header .btn {
+
+/* כפתור */
+.btn {
   display: inline-block;
-  background: #ff9800;
+  background: #b8860b; /* זהב כהה */
   color: white;
   padding: 15px 25px;
   text-decoration: none;
   border-radius: 6px;
   transition: background 0.3s, transform 0.2s;
 }
-header .btn:hover {
-  background: #e68a00;
+.btn:hover {
+  background: #daa520; /* זהב בהיר */
   transform: translateY(-2px);
 }
 
@@ -57,20 +59,28 @@ section h2 {
   margin-bottom: 15px;
 }
 
-/* תפריט */
+/* תפריט עם תמונות */
 .menu ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: 1fr;
   gap: 15px;
   padding: 0;
   list-style: none;
 }
 .menu ul li {
-  background: #fff8e1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fffaf0;
   padding: 15px;
   border-radius: 8px;
-  text-align: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.menu ul li img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 /* גלריית תמונות */
@@ -83,6 +93,12 @@ section h2 {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* כפתור בתחתית האתר */
+.call-to-action {
+  text-align: center;
+  margin: 40px 0;
 }
 
 /* footer */
