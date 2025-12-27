@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>Cafe Herzliya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Cafe Herzliya</h1>
+  <p>קפה שכונתי חמים בלב הרצליה</p>
+  <a href="tel:0500000000" class="btn">📞 התקשרו עכשיו</a>
+</header>
+
+<section>
+  <h2>מי אנחנו</h2>
+  <p>
+    בית קפה מקומי בהרצליה עם קפה איכותי, מאפים טריים ואווירה משפחתית.
+  </p>
+</section>
+
+<section>
+  <h2>תפריט</h2>
+  <ul>
+    <li>אספרסו – ₪10</li>
+    <li>קפוצ'ינו – ₪14</li>
+    <li>קרואסון – ₪12</li>
+  </ul>
+</section>
+
+<section>
+  <h2>שעות פתיחה</h2>
+  <p>א׳–ה׳: 07:00–19:00<br>ו׳: 07:00–14:00</p>
+</section>
+
+<section>
+  <h2>צרו קשר</h2>
+  <p>📍 הרצליה</p>
+  <p>📞 050-0000000</p>
+</section>
+
+</body>
+</html>
