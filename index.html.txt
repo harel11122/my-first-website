@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Herzliya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Cafe Herzliya</h1>
+  <p>קפה שכונתי חמים בלב הרצליה</p>
+  <img src="images/cafe.jpg" alt="בית הקפה שלנו" class="hero-img">
+  <a href="tel:0500000000" class="btn">📞 התקשרו עכשיו</a>
+</header>
+
+<section class="about">
+  <h2>מי אנחנו</h2>
+  <p>
+    בית קפה מקומי בהרצליה עם קפה איכותי, מאפים טריים ואווירה משפחתית. 
+    אנו דואגים שחוויית הקפה שלכם תהיה תמיד נעימה ומיוחדת.
+  </p>
+</section>
+
+<section class="menu">
+  <h2>תפריט</h2>
+  <ul>
+    <li>אספרסו – ₪10</li>
+    <li>קפוצ'ינו – ₪14</li>
+    <li>קרואסון – ₪12</li>
+    <li>לטה – ₪15</li>
+    <li>עוגת שוקולד – ₪18</li>
+    <li>סלט טרי – ₪20</li>
+  </ul>
+</section>
+
+<section class="hours">
+  <h2>שעות פתיחה</h2>
+  <p>א׳–ה׳: 07:00–19:00<br>ו׳: 07:00–14:00</p>
+</section>
+
+<section class="gallery">
+  <h2>גלריית תמונות</h2>
+  <div class="images">
+    <img src="images/cafe1.jpg" alt="קפה חמים">
+    <img src="images/cafe2.jpg" alt="מאפים טריים">
+    <img src="images/cafe3.jpg" alt="פינה נעימה בבית הקפה">
+  </div>
+</section>
+
+<section class="contact">
+  <h2>צרו קשר</h2>
+  <p>📍 הרצליה</p>
+  <p>📞 050-0000000</p>
+  <p>📧 info@cafeherzliya.com</p>
+</section>
+
+<footer>
+  <p>© 2025 Cafe Herzliya</p>
+</footer>
+
+</body>
+</html>
