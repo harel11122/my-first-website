@@ -10,17 +10,17 @@ body {
 
 /* header */
 header {
-  background: white; /* ירוק זית יוקרתי */
-  color: #556B2F;
   text-align: center;
   padding: 60px 20px;
 }
-header h1 {
+header .title {
   font-size: 2.5rem;
+  color: #556B2F; /* ירוק זית על הטקסט */
 }
-header p {
+header .subtitle {
   font-size: 1.2rem;
   margin: 10px 0 20px;
+  color: #556B2F;
 }
 header .hero-img {
   width: 100%;
@@ -33,7 +33,7 @@ header .hero-img {
 /* כפתור */
 .btn {
   display: inline-block;
-  background: #556B2F; /* ירוק זית */
+  background: #556B2F; /* ירוק זית ככפתור */
   color: white;
   padding: 15px 25px;
   text-decoration: none;
@@ -51,8 +51,9 @@ section {
   margin: 30px auto;
   padding: 30px;
   border-radius: 10px;
-  max-width: 800px;
+  max-width: 1000px; /* רוחב אחיד לכל הסקשנים */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-sizing: border-box;
 }
 section h2 {
   font-size: 1.8rem;
@@ -71,7 +72,7 @@ section h2 {
   display: flex;
   align-items: center;
   gap: 15px;
-  background: #f0f5e1; /* צבע רקע עדין */
+  background: #f0f5e1;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -96,18 +97,27 @@ section h2 {
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
-/* כפתור בתחתית האתר */
+/* כפתור Call to Action */
 .call-to-action {
-  text-align: center; /* מוודא שהוא באמצע */
-  margin: 40px 0;
+  text-align: center;
+  margin: 40px auto;
   clear: both;
 }
 
-/* footer */
+/* Footer */
 footer {
-  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 20px;
+  text-align: center;
   background: #222;
   color: white;
 }
+
+/* ריווח אחיד בין סקשנים */
+section + section {
+  margin-top: 30px;
+}
+
+
 
