@@ -81,7 +81,7 @@ section h2 {
   height: 60px;
   object-fit: cover;
   border-radius: 8px;
-  flex-shrink: 0; /* מונע מהתמונה להצטמצם */
+  flex-shrink: 0;
 }
 
 /* גלריית תמונות */
@@ -100,7 +100,7 @@ section h2 {
 .call-to-action {
   text-align: center; /* מוודא שהוא באמצע */
   margin: 40px 0;
-  clear: both; /* מונע בעיות עם float/align */
+  clear: both;
 }
 
 /* footer */
