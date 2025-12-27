@@ -10,8 +10,8 @@ body {
 
 /* header */
 header {
-  background: #556B2F; /* ירוק זית יוקרתי */
-  color: white;
+  background: white; /* ירוק זית יוקרתי */
+  color: #556B2F;
   text-align: center;
   padding: 60px 20px;
 }
@@ -110,3 +110,4 @@ footer {
   background: #222;
   color: white;
 }
+
